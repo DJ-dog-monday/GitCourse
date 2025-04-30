@@ -1,6 +1,6 @@
-import sys
-import math
-# for name in dir(sys):
-#     print(name, end='\t')
+from sys import exit
 
-sys.exit()
+def exit():
+    print('I wanna exit')
+    
+exit()
